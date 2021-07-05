@@ -7,9 +7,7 @@ Due to a current limitation and [hard-coded value in plover](https://github.com/
 To eliviate this issue, the references for the dots inside each cell line up with the qwerty keymap for the layout.
 
 | `1 : f` | `4 : j` |
-| - | - |
 | `2 : d` | `5 : k` | 
-| - | - |
 | `3 : s` | `6 : l` | 
 
 ![Layout Diagram](img/layout.png)
