@@ -1,0 +1,21 @@
+{
+"S": "{& }{plover:toggle_dict:-grade1.json,-numbers.json}",
+"dk": "{&:}",
+"dkl": "{&.}",
+"dkl/dkl/dkl": "{&…}",
+"dsk": "{&!}",
+"dsl": "{&?}",
+"jk/skl": "{&”}",
+"jkl/fl": "{&\\\\}",
+"jkl/sjk": "{&\\}}",
+"jkl/skl": "{&»}",
+"jl/sjk": "{&]}",
+"k/l/sl": "{&——}",
+"k/sjk": "{&)}",
+"kl/s": "{plover:toggle_dict:-grade1.json,-grade1-passage.json,-numbers.json}",
+"l/dskl": "{&\"}",
+"l/skl": "{&’}",
+"l/sl": "{&—}",
+"s": "{&'}",
+"sl": "{&–}"
+}
