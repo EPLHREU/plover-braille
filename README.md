@@ -4,7 +4,7 @@ A plugin allowing writing of Braille with plover, directly translating Braille i
 This system is based on Unified English Braille (UEB), with specification from [The Rules of Unified English Braille](http://www.iceb.org/Rules%20of%20Unified%20English%20Braille%202013.pdf).
 
 To use this system, you will need to:
-- install `plover-dict-commands` - this can be easily done from the plover plugin manager 
+- install `plover-dict-commands` and `plover-python-dictionary` - this can be easily done from the plover plugin manager 
 - load all 5 dictionaries from the dictionaries/ directory in the following order, with the corresponding active state:
 	- `[ ]` numbers.json
 	- `[ ]` grade1-passage.json
