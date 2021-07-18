@@ -30,4 +30,6 @@ This is the layout of the default qwerty keyboard mapping for each cell:
 
 ![Layout Diagram](img/layout.png)
 
+> this plugin is currently in pre-release/testing - the code is **bad**, but (hopefull) functional - in time it will be improved :) 
+
 Made with testing and braille support from: @a-lint, thanks!
