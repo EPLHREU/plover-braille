@@ -236,10 +236,17 @@ def format(ctx, cmdline):
                 ret.word_is_finished = True
                 return ff(ctx, ret)
             else:
+                ret.word = '\'' + cmdline
                 ret.text = ret.text + cmdline
+                ret.word_is_sinished = True
                 return ff(ctx, ret)
         else:
-            ret.text = ret.text + cmdline
+            if cmdline == '\'':
+                ret.text = ret.text + cmdline
+                ret.word = cmdline
+                ret.word_is_finished = True
+            else:
+                ret.text = ret.text + cmdline
             return ff(ctx, ret)
 
     if cmdline in ['ound', 'ance', 'sion', 'less', 'ount', 'ence', 'ong', 'ful', 'tion', 'ness', 'ment', 'ity']:
@@ -339,9 +346,9 @@ def format(ctx, cmdline):
             return ff(ctx, ret)
 
     if cmdline in ending:
-        ret.word_is_finished = True
         ret.text = cmdline
         ret.word = cmdline
+        ret.word_is_finished = True
         return ff(ctx, ret)
 
     if cmdline == "\n":
