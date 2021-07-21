@@ -45,6 +45,6 @@ DEFAULT_DICTIONARIES = (
         'grade1.json',
         'caps.json',
         'brailly.py',
-        'glyph.py',
+        'cell.py',
         'brf.py',
 )

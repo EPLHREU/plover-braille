@@ -300,7 +300,9 @@ dictionary = {
         #"45/346": "{& ̌}", # modifierCaron
         "45/346": "{:brailleFormat:\u030C}", # modifierCaron
         "LB": "{PLOVER:TOGGLE}",
-        "LBS":               "{plover:priority_dict:numbers.json,grade1-passage.json,grade1.json,numbers.json,caps.json,braille.py}{plover:toggle_dict:-numbers.json,-grade1-passage.json,-grade1.json,-caps.json,+braille.py}"
+        "LBS":               "{plover:priority_dict:numbers.json,grade1-passage.json,grade1.json,numbers.json,caps.json,braille.py,cell.py,brf.py}{plover:toggle_dict:-numbers.json,-grade1-passage.json,-grade1.json,-caps.json,+braille.py,-cell.py,-brf.py}",
+        "L14B" : "{plover:toggle_dict:+cell.py,-braille.py}",
+        "L12B" : "{plover:toggle_dict:+brf.py,-braille.py}"
 }
 
 def tr(letters):

@@ -15,6 +15,9 @@ To use this system, you will need to:
 If the state of the dictionaries goes wrong and you need to reset them to the correct order and active state, press: `BLS` (backspace, newline and space).
 To toggle plover on and off you can also press `BL` (backspace, newline)
 
+You can also toggle writing in bralle cells (⠃⠗⠇⠀⠅⠑⠇⠇⠎) by pressing B and L in conbination with the letter c (for _c_ell).
+As well as toggle writing in BRF Characters (`,,BRF ,"*S`) by pressing B and L in combination with the letter b (for _B_RF)
+
 Due to a current limitation and [hard-coded value in plover](https://github.com/openstenoproject/plover/blob/6c5167f48476a499f2a0dbb973f6b77123bde429/plover/steno.py#L21) using numbers 1 to 6 for the cells lead to issues and inconsistencies with the dictionary.
 To elevate this issue, the references for the dots inside each cell line up with the qwerty keymap for the layout.
 
