@@ -15,7 +15,7 @@ KEYMAPS = {
             'S': ('A-', 'O-', '-E', '-U'),
         },
         'Keyboard': {
-            'L': ('q', 'a'),
+            'L': ('q', 'a', 'Return'),
             'f': ('r', 'f'),
             'd': ('e', 'd'),
             's': ('w', 's'),
@@ -40,10 +40,11 @@ ORTHOGRAPHY_RULES_ALIASES = {}
 
 DICTIONARIES_ROOT = 'asset:dictionaries'
 DEFAULT_DICTIONARIES = (
-        'braille-alphabet.json',
-        'braille-formatting.json',
-        'braille-symbols.json',
-        'braille-abreviations.json',
-        'braille-contractions.json',
-        'braille-signs.json',
+        'numbers.json',
+        'grade1-passage.json',
+        'grade1.json',
+        'caps.json',
+        'brailly.py',
+        'glyph.py',
+        'brf.py',
 )
