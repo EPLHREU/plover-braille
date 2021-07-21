@@ -71,7 +71,10 @@ LONGEST_KEY = 1
 
 def lookup(stroke):
     if stroke[0] not in brf:
-        return '{&[' + stroke[0] + ']}'
+        if stroke == ('B',):
+            raise KeyError
+        else:
+            return '{&[' + stroke[0] + ']}'
     output = brf[stroke[0]]
     if 'toggle_dict' in output:
         return output
