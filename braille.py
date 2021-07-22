@@ -23,7 +23,7 @@ KEYMAPS = {
             'k': ('i', 'k'),
             'l': ('o', 'l'),
             'B': ('p', ';', 'BackSpace'),
-            'S': ('space', 'c', 'v', 'n', 'm'),
+            'S': ('space', 'g', 'h', 'c', 'v', 'n', 'm'),
             'arpeggiate': ('g', 'h'),
             'no-op': ('x', 'b', ','),
         },
